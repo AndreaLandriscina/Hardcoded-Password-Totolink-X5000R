@@ -25,7 +25,7 @@ dnsmasq:x:0:0:99999:7:::
 By using John The Ripper with the "rockyou" wordlist, it is possibile to crack the password and obtain "cs2012".
 ```
 john hash.txt --wordlist rockyou.txt 
-$1$BJXeRIOB$w1dFteNXpGDcSSWBMGsl2/:cs2012
+$1$ArDex.Yh$J4iv2K7mBpSnHewlCdkdp.:cs2012
 ```
 
 Inside the firmware there is the telnet binary linking to busybox. 
