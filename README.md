@@ -5,7 +5,7 @@
 - **Download link**: https://www.totolink.net/data/upload/20250515/9ef4ceaaae8d9c1ac3e26e15af8d97b0.web
 
 ## Description
-TOTOLINK X5000R V9.1.0cu.2415_B20250515 was discovered to contain a hardcoded password for root which is stored in the component /etc/shadow.
+TOTOLINK X5000R V9.1.0cu.2415_B20250515 was discovered to contain a hardcoded password for root which is stored in the component /etc/shadow. The vendor acknowledged the vulnerability but did not propose any remediation.
 
 ## Proof-Of-Concept
 After the download of the firmware, it is necessary to extract it via binwalk.
