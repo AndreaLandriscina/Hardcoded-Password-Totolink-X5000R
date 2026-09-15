@@ -7,6 +7,8 @@
 ## Description
 TOTOLINK X5000R V9.1.0cu.2415_B20250515 was discovered to contain a hardcoded password for root which is stored in the component /etc/shadow. The vendor acknowledged the vulnerability but did not propose any remediation.
 
+This vulnerability is tracked as CVE-2026-37152.
+
 ## Proof-Of-Concept
 After the download of the firmware, it is necessary to extract it via binwalk.
 ```
